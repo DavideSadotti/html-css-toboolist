@@ -1,0 +1,134 @@
+*{
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: #ddd;
+}
+
+/* MODIFICHE ALLA NAVBAR */
+header{
+  background-color: white;
+  height: 80px;
+}
+
+.logo{
+  padding: 15px;
+}
+
+.logo-img{
+  vertical-align: middle;
+}
+
+.logo-testo{
+  vertical-align: middle;
+  display: inline;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+/* MODIFICHE AL BOX CENTRALE */
+.box-centrale{
+  width: 70%;
+  height: 800px;
+  margin: 30px auto;
+  background-color: white;
+  border-radius: 7px;
+}
+
+/* BOX BOTTONI */
+.box-bottoni{
+  border-bottom: 2px solid #ddd;
+  padding: 20px 40px;
+}
+
+div button{
+  border-radius: 5px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.bottone-uno{
+  background-color: #40c3ff;
+  border: 1px solid #40c3ff;
+  color: white;
+}
+
+.bottone-due{
+  background-color: white;
+  border: 1px solid #ddd;
+  color: #ddd;
+}
+
+/* MODIFICHE GRAFICHE ALLA LISTA */
+ul li{
+  list-style: none;
+}
+
+ul li ul li{
+margin: 20px 0;
+font-weight: normal;
+}
+
+.titolo-lista{
+  font-size: 22px;
+  margin: 40px 40px;
+  font-weight: 600;
+}
+
+.triangle{
+  font-size: 30px;
+}
+
+.check{
+  border-radius: 100%;
+  padding: 0 3px;
+  font-size: 14px;
+  margin-right: 10px;
+}
+
+.check-verde{
+  color: #00ca00;
+  border: 1px solid #00ca00;
+}
+
+.check-rosso{
+  color: red;
+  border: 1px solid red;
+}
+
+.task{
+  font-size: 10px;
+  font-weight: 600;
+  color: white;
+  border-radius: 25px;
+  padding: 5px 10px;
+}
+
+.task-blu{
+  background-color: #40c3ff;
+}
+
+.task-viola{
+  background-color: #a000d4;
+}
+
+.task-verde{
+  background-color: #63c497;
+}
+
+.task-arancione{
+  background-color: orange;
+}
+
+.task-rosa{
+  background-color: #fd7fa8;
+}
+
+.task-pistacchio{
+  background-color: #cddc39;
+}
